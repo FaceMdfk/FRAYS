@@ -1,1 +1,60 @@
- <h2>que cumplas muchisisimos años mas</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>FRAY 1</title>
+    <link rel="stylesheet" href="I.CSS">
+</head>
+<body>
+    <header>
+        <a href="" class="LOGO">FRAIDY</a>
+        <ul>
+            <li><a href="G.html" class="active">Inicio</a></li>
+            <li><a href="I.html">historia</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="img/stars.png" alt="" id="stars">
+        <source media="(min-width:480px )" srcset="img/stars.png" sizes="">
+        <img src="img/moon.png" alt="" id="moon">
+        <h2 id="text">FRAYDY</h2>
+        <a href="flor.html" id="btn">Para ti</a>
+        <img src="img/mountains_behind.png" alt="" id="mont">
+        <img src="img/mountains_front.png" alt="" id="montf">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Felicitaciones FRAY</h2>
+        <p>¡Feliz cumpleaños! Hoy es un día muy especial para ti y queremos que sepas cuánto significas para todos nosotros. Que este día te traiga mucha felicidad, amor y que todos tus sueños se hagan realidad. Que la vida te sonría siempre y que nunca te falte la salud, la felicidad y el amor. Recuerda que eres una persona muy especial y que siempre estarás en nuestros corazones. Que este nuevo año de vida que empiezas hoy te traiga muchas alegrías, logros y momentos inolvidables. Que sigas creciendo, aprendiendo y siendo la persona maravillosa que eres. ¡Feliz cumpleaños una vez más! Que tengas un día lleno de amor, risas y celebración. ¡Que todos tus deseos se cumplan!, tqm fraidy de parte de john,pasala bien en compañia de tu familia uwu”
+        </p>
+        <H2></H2>
+        <p>AHORA ESCÚCHAME FRAY. TIENES LA FUERZA DE TU GRANDEZA, PERO TIENES QUE TOMAR EL TIMÓN Y DECIDIR TU PROPIO CURSO. SÍGUELO, NO IMPORTA QUE DUELA. Y CUANDO EL TIEMPO VENGA A DECIRTE QUE TIENES QUE IZAR TUS VELAS Y SER TODA UNA ADULTA... YO ESPERO ESTAR AHÍ, RECIBIENDO ALGO DE LA LUZ QUE EMITAS ESE DÍA</p>
+        <div style="text-align: center;">
+            <img src="imges/CHOFIS.png" alt="CHOFIS">
+        </div>
+        
+        <P>A veces, el tiempo y la distancia pueden crear silencios que parecen infinitos, pero en el fondo de nuestro corazón siempre queda el eco de los momentos compartidos, de las risas, de las conversaciones que llenaban el alma. Hoy, aunque haya pasado MUY POCO tiempo desde nuestra última charla, quiero que sepas que no hay un solo día en el que no te recuerde con cariño y esperanza, sabiendo que, a pesar de la pausa en nuestras palabras, la conexión que tuvimos siempre estará presente, lista para renacer cuando volvamos a cruzar nuestros caminos,TORY Y JOHN</P>
+        <div style="text-align: center;">
+            <img src="imges/CHOFIS2.png" alt="CHOFIS">
+        </div>
+    </div>
+    <script>
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let mont = document.getElementById('mont');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn')
+    let montf = document.getElementById('montf;')
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mont.style.top = value * 0.5 + 'px';
+            montf.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+        })
+    </script>
+</body>
+</html>
